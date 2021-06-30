@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    tools:context=".Menu_user_1">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:layout_gravity="top"
+        android:background="@color/far">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"/>
+    </FrameLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:columnOrderPreserved="false"
+        android:padding="14dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_border"
+            android:text="HISTORIAL" />
+        <Button
+            android:id="@+id/btn_Buscador"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/rounded_border"
+            android:text="Buscador" />
+
+        <Button
+            android:id="@+id/btn_List_farmaci"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_border"
+            android:text="farmacia" />
+
+        <Button
+            android:id="@+id/btn_usuarioPerfil"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/rounded_border"
+            android:text="Ver Perfil" />
+
+
+        <Button
+            android:id="@+id/btn_Maps"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_border"
+            android:text="Mapas" />
+
+        <Button
+            android:id="@+id/btn_AcercaDe"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/rounded_border"
+            android:text="Acerca de" />
+    </GridLayout>
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    tools:context=".Menu_farm_1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:layout_gravity="top"
+        android:layout_marginBottom="50dp"
+        android:background="@color/far">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido - Menu Farmacia"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+    </FrameLayout>
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+    <Button
+        android:id="@+id/btn_farmaciamenu"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_border"
+        android:text="farmacia" />
+
+    <Button
+        android:id="@+id/btn_usuariomenu"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_border"
+        android:text="Usuario" />
+
+    <Button
+        android:id="@+id/btn_Buscador"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_border"
+        android:text="Buscador" />
+
+    <Button
+        android:id="@+id/btn_Maps"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_border"
+        android:text="Mapas" />
+
+    <Button
+        android:id="@+id/btn_historial"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:background="@drawable/rounded_border"
+        android:text="HISTORIAL" />
+    </LinearLayout>-->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:columnOrderPreserved="false"
+        android:padding="14dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+
+        <Button
+            android:id="@+id/btn_InfoFarmacia"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_border"
+            android:text="INFORMACION"
+            android:visibility="invisible"></Button>
+
+        <Button
+            android:id="@+id/btn_farmacia_listFarmacia"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_border"
+            android:text="farmacia"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_miFarmacia"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_border"
+            android:text="MI FARMACIA" />
+
+
+        <Button
+            android:id="@+id/btn_MapsFarmacia"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/rounded_border"
+            android:text="Mapas" />
+
+        <Button
+            android:id="@+id/btn_CerrarSesionF"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_border"
+            android:text="Cerrar Sesión" />
+        <Button
+            android:id="@+id/btn_AcercaDe1"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/rounded_border"
+            android:text="Acerca de" />
+
+    </GridLayout>
+</LinearLayout>
+

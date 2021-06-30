@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".BoutiqueActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:layout_marginBottom="25dp"
+        android:background="@color/far">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registro de Farmacia"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"/>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Ingrese la información sobre su farmacia"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_horizontal">
+    </TextView>
+
+
+        <EditText
+            android:id="@+id/txt_nombreFarmacia"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:paddingTop="2dp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/txt_descripcionFarmacia"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:hint="Descripción"
+            android:inputType="textPersonName"
+            android:paddingTop="2dp">
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/txt_passwordFarmacia"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:paddingTop="2dp"
+            android:autofillHints="">
+        </EditText>
+
+        <EditText
+            android:id="@+id/txt_valoracionFarmacia"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:hint="Valoración"
+            android:inputType="text|number"
+            android:paddingTop="2dp">
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/txt_telefono"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:hint="Teléfono"
+            android:inputType="textPersonName"
+            android:paddingTop="2dp">
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/txt_correo"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            android:paddingTop="2dp">
+        </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Medicamentos disponibles"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Seleccione los que tenga disponible"
+        android:textAlignment="center"
+        android:textSize="14dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal">
+    </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Amoxicilina"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"/>
+
+                <EditText
+                    android:id="@+id/amoxPrecio"
+                    android:layout_width="248dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:hint="Precio"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/amoxPresentacion"
+                    android:layout_width="248dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:hint="Presentacion"
+                    android:inputType="text"/>
+
+                <EditText
+                    android:id="@+id/amoxCantidad"
+                    android:layout_width="248dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:hint="Cantidad"
+                    android:inputType="number"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ampicilina"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"/>
+
+                <EditText
+                    android:id="@+id/ampiPrecio"
+                    android:layout_width="248dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:hint="Precio"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/ampiPresentacion"
+                    android:layout_width="248dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:hint="Presentacion"
+                    android:inputType="text"/>
+
+                <EditText
+                    android:id="@+id/ampiCantidad"
+                    android:layout_width="248dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:hint="Cantidad"
+                    android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aspirina"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"/>
+
+            <EditText
+                android:id="@+id/aspiPrecio"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Precio"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/aspiPresentacion"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Presentacion"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/aspiCantidad"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Cantidad"
+                android:inputType="number"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ibuprofeno"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"/>
+
+            <EditText
+                android:id="@+id/ibuPrecio"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Precio"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/ibuPresentacion"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Presentacion"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/ibuCantidad"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Cantidad"
+                android:inputType="number"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lansoprazol"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"/>
+
+            <EditText
+                android:id="@+id/lansoPrecio"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Precio"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/lansoPresentacion"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Presentacion"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/lansoCantidad"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Cantidad"
+                android:inputType="number"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Omeprazol"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"/>
+
+            <EditText
+                android:id="@+id/omePrecio"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Precio"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/omePresentacion"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Presentacion"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/omeCantidad"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Cantidad"
+                android:inputType="number"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Panadol"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"/>
+
+            <EditText
+                android:id="@+id/panaPrecio"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Precio"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/panaPresentacion"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Presentacion"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/panaCantidad"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Cantidad"
+                android:inputType="number"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paracetamol"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"/>
+
+            <EditText
+                android:id="@+id/paraPrecio"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Precio"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/paraPresentacion"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Presentacion"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/paraCantidad"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Cantidad"
+                android:inputType="number"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Promazol"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"/>
+
+            <EditText
+                android:id="@+id/promaPrecio"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Precio"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/promaPresentacion"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Presentacion"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/promaCantidad"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Cantidad"
+                android:inputType="number"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rampiril"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"/>
+
+            <EditText
+                android:id="@+id/rampiPrecio"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Precio"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/rampiPresentacion"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Presentacion"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/rampiCantidad"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:hint="Cantidad"
+                android:inputType="number"/>
+
+
+            <Button
+                android:id="@+id/btn_RegistrarFarmacia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REGISTRAR FARMACIA"></Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

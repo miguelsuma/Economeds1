@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="top"
+    tools:context=".AcercaDeActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="top"
+        android:layout_marginBottom="50dp"
+        android:background="@color/far"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="center_horizontal"
+            android:text="Aplicación de Busqueda de Farmacias"
+            android:textAlignment="center"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="410dp"
+        android:layout_height="30dp"
+        android:gravity="center_horizontal"
+        android:text="Desarrollado por: "
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <TextView
+        android:layout_width="397dp"
+        android:layout_height="24dp"
+        android:gravity="center_horizontal"
+        android:text="Sonny Pimentel Mogrovejo "
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:layout_width="403dp"
+        android:layout_height="24dp"
+        android:gravity="center_horizontal"
+        android:text="Bryan Mejía Manzanares "
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="395dp" />
+    <TextView
+        android:layout_width="403dp"
+        android:layout_height="24dp"
+        android:gravity="center_horizontal"
+        android:text="Adrían Cheje Apaza "
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="420dp" />
+    <TextView
+        android:layout_width="403dp"
+        android:layout_height="24dp"
+        android:gravity="center_horizontal"
+        android:text="Estefani Quilla Gutiérrez "
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="445dp" />
+    <TextView
+        android:layout_width="403dp"
+        android:layout_height="24dp"
+        android:gravity="center_horizontal"
+        android:text="Delia Rocío Peralta Tito"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="470dp" />
+    <TextView
+        android:layout_width="403dp"
+        android:layout_height="24dp"
+        android:gravity="center_horizontal"
+        android:text="Jordan Laqui Pacaya "
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="495dp" />
+    <TextView
+        android:layout_width="403dp"
+        android:layout_height="24dp"
+        android:gravity="center_horizontal"
+        android:text="Jheyson Lopez Rodriguez "
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="138dp"
+        android:contentDescription="TODO"
+        android:background="@drawable/acercade">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="245dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:background="@drawable/unsalogo"
+        android:contentDescription="TODO"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="558dp">
+
+    </ImageView>
+
+
+</LinearLayout>
