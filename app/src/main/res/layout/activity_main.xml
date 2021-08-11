@@ -10,57 +10,44 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="220dp"
-        android:layout_marginBottom="10dp"
-        android:background="@color/far">
-
-        <ImageView
-            android:id="@+id/imageViewUsuario"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="65dp"
-            android:layout_marginBottom="40dp"
-            android:background="@drawable/password" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:gravity="center_horizontal"
-            android:text="Inicio de Sesión"
-            android:textAlignment="center"
-            android:textSize="30dp"
-            android:textStyle="bold" />
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:layout_marginBottom="20dp"
+        android:background="@color/teal_200">
     </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Inicio de Sesión"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewUsuario"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/ic_user" />
+
     <TextView
         android:layout_width="248dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:layout_gravity="center"
         android:textSize="18dp"
-        android:text="Nombre : ">
-    </TextView>
-    <EditText
-        android:id="@+id/editTextName"
-        android:layout_width="248dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
-        android:layout_gravity="center"
-        android:hint=""/>
-    <TextView
-        android:layout_width="248dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
-        android:layout_gravity="center"
-        android:textSize="18dp"
-        android:text="Correo : ">
+        android:text="Email: ">
     </TextView>
     <EditText
         android:id="@+id/editTextEmail"
         android:layout_width="248dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="15dp"
         android:layout_gravity="center"
         android:hint="mail@example.com"/>
     <TextView
@@ -90,19 +77,6 @@
         android:paddingRight="100px">
 
         <Button
-            android:id="@+id/btnRegister"
-            android:layout_width="248dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/rounded_border"
-            android:paddingLeft="10dp"
-            android:paddingTop="15dp"
-            android:paddingRight="5dp"
-            android:paddingBottom="14dp"
-            android:text="REGISTRAR USUARIO"
-
-            android:textColor="@android:color/white" />
-
-        <Button
             android:id="@+id/btnSendToLogin"
             android:layout_width="248dp"
             android:layout_height="wrap_content"
@@ -112,7 +86,20 @@
             android:paddingTop="15dp"
             android:paddingRight="5dp"
             android:paddingBottom="14dp"
-            android:text="YA TENGO UNA CUENTA"
+            android:layout_marginBottom="20dp"
+            android:text="Login"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="14dp"
+            android:text="REGISTRARSE"
             android:textColor="@android:color/white" />
 
 

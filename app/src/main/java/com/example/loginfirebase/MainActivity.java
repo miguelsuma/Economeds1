@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         mDatasbase = FirebaseDatabase.getInstance().getReference();
 
-        mEditTextName = (EditText) findViewById(R.id.editTextName);
+        //mEditTextName = (EditText) findViewById(R.id.editTextName);
         mEditTextEmail = (EditText) findViewById(R.id.editTextEmail);
         mEditTextPassword = (EditText) findViewById(R.id.editTextPassword);
         mButtonRegister = (Button) findViewById(R.id.btnRegister);

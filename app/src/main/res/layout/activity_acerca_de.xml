@@ -47,7 +47,7 @@ android:orientation="vertical">
         android:layout_width="397dp"
         android:layout_height="24dp"
         android:gravity="center_horizontal"
-        android:text="Sonny Pimentel Mogrovejo "
+        android:text="Miguel Suma"
         android:textAlignment="center"
         android:textSize="16dp"
         android:textStyle="bold"
@@ -59,7 +59,7 @@ android:orientation="vertical">
         android:layout_width="403dp"
         android:layout_height="24dp"
         android:gravity="center_horizontal"
-        android:text="Bryan Mejía Manzanares "
+        android:text="Luis Galindo"
         android:textAlignment="center"
         android:textSize="16dp"
         android:textStyle="bold"
@@ -70,80 +70,13 @@ android:orientation="vertical">
         android:layout_width="403dp"
         android:layout_height="24dp"
         android:gravity="center_horizontal"
-        android:text="Adrían Cheje Apaza "
+        android:text="Willian Orihuela"
         android:textAlignment="center"
         android:textSize="16dp"
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="420dp" />
-    <TextView
-        android:layout_width="403dp"
-        android:layout_height="24dp"
-        android:gravity="center_horizontal"
-        android:text="Estefani Quilla Gutiérrez "
-        android:textAlignment="center"
-        android:textSize="16dp"
-        android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="445dp" />
-    <TextView
-        android:layout_width="403dp"
-        android:layout_height="24dp"
-        android:gravity="center_horizontal"
-        android:text="Delia Rocío Peralta Tito"
-        android:textAlignment="center"
-        android:textSize="16dp"
-        android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="470dp" />
-    <TextView
-        android:layout_width="403dp"
-        android:layout_height="24dp"
-        android:gravity="center_horizontal"
-        android:text="Jordan Laqui Pacaya "
-        android:textAlignment="center"
-        android:textSize="16dp"
-        android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="495dp" />
-    <TextView
-        android:layout_width="403dp"
-        android:layout_height="24dp"
-        android:gravity="center_horizontal"
-        android:text="Jheyson Lopez Rodriguez "
-        android:textAlignment="center"
-        android:textSize="16dp"
-        android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="520dp" />
-
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_gravity="center"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="138dp"
-        android:contentDescription="TODO"
-        android:background="@drawable/acercade">
-    </ImageView>
-
-    <ImageView
-        android:layout_width="245dp"
-        android:layout_height="66dp"
-        android:layout_gravity="center"
-        android:background="@drawable/unsalogo"
-        android:contentDescription="TODO"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="558dp">
-
-    </ImageView>
 
 
 </LinearLayout>
